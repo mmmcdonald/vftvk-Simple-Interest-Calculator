@@ -7,6 +7,7 @@ function compute()
     if(principal <= 0) {
 
         alert("Enter a positive number");
+        document.getElementById("principal").focus();
     }
 
     var rate = document.getElementById("rate").value;
