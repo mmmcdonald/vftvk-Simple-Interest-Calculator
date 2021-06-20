@@ -19,7 +19,10 @@ h1{
     line-height:30px;
     text-indent:20px;
     }
-    footer {
+    .inputdiv{
         text-align:left;
+    }
+footer {
+    text-align:left;
     }
 
