@@ -11,11 +11,10 @@ h1{
 .maindiv {
     background-color: white;
     color:black;
-    width:500px;
+    width:550px;
     padding:20px;
-    box-sizing:border-box;
     border-radius:25px;
-    text-align:center;
+    text-align:justify;
     white-space:nowrap;
     line-height:30px;
     text-indent:20px;
