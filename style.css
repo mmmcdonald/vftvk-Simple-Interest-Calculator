@@ -15,5 +15,6 @@ h1{
     box-sizing:border-box;
     border-radius:25px;
     align:center;
+    white-space: nowrap;
     }
 
