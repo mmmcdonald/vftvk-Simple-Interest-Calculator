@@ -18,9 +18,7 @@ h1{
     white-space:nowrap;
     line-height:30px;
     text-indent:20px;
-    }
-    form {
-        display:inline;
+    display:inline;
     }
     footer {
         text-align:left;
