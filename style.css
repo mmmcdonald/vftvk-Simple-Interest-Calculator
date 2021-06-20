@@ -5,7 +5,8 @@ body {
     }
 h1{
     color:grey;
-    font-family:verdana
+    font-family:verdana;
+    text-align:left;
     }
 .maindiv {
     background-color: white;
