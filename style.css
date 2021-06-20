@@ -11,12 +11,16 @@ h1{
 .maindiv {
     background-color: white;
     color:black;
-    width:600px;
+    width:500px;
     padding:20px;
     box-sizing:border-box;
     border-radius:25px;
     text-align:center;
     white-space:nowrap;
     line-height:30px;
+    text-indent:20px;
+    }
+    footer {
+        text-align:left;
     }
 
