@@ -2,8 +2,7 @@ body {
     background-color:black;
     font-family:arial;
     color:white;
-    margin: 0 auto;
-    text-align:center;
+
     }
 h1{
     color:grey;
@@ -11,12 +10,12 @@ h1{
     text-align:left;
     }
 .maindiv {
+    margin: 0 auto;
     background-color: white;
     color:black;
     width:550px;
     padding:20px;
     border-radius:25px;
-
     white-space:nowrap;
     line-height:30px;
 
