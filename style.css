@@ -27,4 +27,7 @@ h1{
 footer {
     text-align:left;
     }
+    #result {
+        line-height:normal;
+    }
 
