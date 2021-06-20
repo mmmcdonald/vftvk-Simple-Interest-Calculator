@@ -7,13 +7,14 @@
     </head>
     <body>
         <div class="maindiv">
+            <!--maindiv contains h1 header, inputs, drop dpwn select box, and Compute Interest Button-->
             <h1>Simple Interest Calculator</h1>
             <div class="inputdiv">
-            <label>Amount</label> <input type="number" value="0" id="principal">  <br/>
-            <label>Rate</label> <input type="range"  id="rate" min="1" max=20 value="10.25" onchange="updateRate()"> <span id="rate_val">
+            <label>Amount</label> <!--user enters amount they wish to save. made a default value of 0 to reduce accidental errors for user.--> <input type="number" value="0" id="principal">  <br/>
+            <label>Rate</label> <!--user selects interest rate from range slider. onchange links to js updateRate() function.--> <input type="range"  id="rate" min="1" max=20 value="10.25" onchange="updateRate()"> <span id="rate_val">
             10.25%
             </span> <br/>
-            <label>No. of Years</label> <select id="years">
+            <label>No. of Years</label> <!--user selects the amount of years they want to invest for.--> <select id="years">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -25,11 +26,13 @@
                 <option value="9">9</option>
                 <option value="10">10</option>
             </select> <br/>
+            <!--button computes interest from the above input.-->
             <button onclick="compute()">Compute Interest</button> <br/>
         </div>
+        <!--originally this was a span contained in the maindiv. switched to an individual div for result because a div handles blocks of text better whereas span is better for a single line of text. the result text spacing and look matched the original example better and was easier to use than the span element.-->
         <div id="result">
         </div>
-        
+        <!--footer text indicating the author's name.-->
     <footer>
             &#169; This Calculator belongs to Madeline McDonald
     </footer>

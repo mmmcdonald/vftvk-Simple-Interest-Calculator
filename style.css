@@ -4,12 +4,12 @@ body {
     color:white;
 
     }
-h1{
+h1{ /*h1 is aligned to left in keeping with the look of the original example.*/
     color:grey;
     font-family:verdana;
     text-align:left;
     }
-.maindiv {
+.maindiv { /*white-space set to nowrap in keeping with the look of the original example. directions called for a width of 300px, but the h1 text ran out of the white space, so the width was increased to 550px. margin of 0 used to improve centering and spacing of text.*/
     margin: 0 auto;
     background-color: white;
     color:black;
@@ -19,15 +19,15 @@ h1{
     white-space:nowrap;
 
     }
-    .inputdiv{
+    .inputdiv{ /*created inputdiv in order to separately handle styling for just the input elements and button. text is aligned left with a margin of80px and line-height of 30px in keeping with the spacing of the original example and to align the input elements and button.*/
         text-align:left;
         margin-left:80px;
         line-height:30px;
     }
-footer {
+footer { /*footer is aligned to left in keeping with the look of the original example.*/
     text-align:left;
     }
-    #result {
+    #result { /*result output text is aligned to left in keeping with the look of the original example. has a margin of 80px to keep aligned with the inputdiv text.*/
         text-align:left;
         margin-left: 80px;
     }
