@@ -17,17 +17,18 @@ h1{
     padding:20px;
     border-radius:25px;
     white-space:nowrap;
-    line-height:30px;
 
     }
     .inputdiv{
         text-align:left;
         margin-left:80px;
+        line-height:30px;
     }
 footer {
     text-align:left;
     }
     #result {
-        line-height:normal;
+        text-align:left;
+        margin-left: 80px;
     }
 
