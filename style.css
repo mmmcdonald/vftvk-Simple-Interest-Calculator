@@ -2,6 +2,7 @@ body {
     background-color:black;
     font-family:arial;
     color:white
+    text-align:center;
     }
 h1{
     color:grey;
@@ -14,7 +15,7 @@ h1{
     width:550px;
     padding:20px;
     border-radius:25px;
-    text-align:center;
+
     white-space:nowrap;
     line-height:30px;
 
